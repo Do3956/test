@@ -1,0 +1,33 @@
+CREATE PROCEDURE [dbo].[P_phone_code_record]
+	@Phone       NVARCHAR(50),    --用户手机号
+	@keyId   INT,    --业务协议号
+	@CheckCode   NVARCHAR(20),    --验证码
+	@status INT=0,   --更换手机的状态：1旧手机，3：新手机&找回账号密码0,找回手机密码1；其它业务无意义
+	@UserID INT=0,
+
+AS
+BEGIN
+    SET NOCOUNT ON;
+
+	DECLARE @errorTimes INT=-1
+
+	SELECT @errorTimes=errorTimes FROM phone_code WITH(nolock) WHERE phone=@Phone
+
+
+
+    IF (@errorTimes=-1)
+        BEGIN
+            INSERT INTO phone_code(phone,code,lastTime,status,keyId) VALUES(@Phone, @CheckCode, @cur_time, @status,@keyId)
+        END
+    ELSE
+        BEGIN
+            UPDATE phone_code SET code=@CheckCode,lastTime=@cur_time,status=@status,keyId=@keyId,errorTimes=0,errorTimesReg=0 WHERE phone=@Phone
+        END
+
+
+    INSERT INTO phone_code_record(phone,code,sendTime,status,keyId,userId)VALUES(@Phone,@CheckCode,@cur_time,@status,@keyId,@UserID)
+
+
+  SELECT 0 as rst
+  RETURN 0
+END
