@@ -1,0 +1,6 @@
+# Python:
+*.pyc[cod]
+
+# My:
+.idea
+log
