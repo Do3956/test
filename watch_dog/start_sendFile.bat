@@ -1,0 +1,1 @@
+python 3.auto_up.py

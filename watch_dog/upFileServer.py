@@ -10,6 +10,11 @@ from BaseHTTPServer import BaseHTTPRequestHandler
 import cgi
 import datetime
 import time
+import os
+
+def unzip_file(filename):
+    os.system("sh unzip_file.sh %s" % filename)
+
 
 class   PostHandler(BaseHTTPRequestHandler):
     def do_POST(self):
@@ -35,6 +40,7 @@ class   PostHandler(BaseHTTPRequestHandler):
             self.wfile.write('file:%s, ' % filename)
             with open(filename.decode('utf-8'),'wb') as f:
                 f.write(filevalue)
+            unzip_file(filename)
 
         use_sec = time.time() - start_time
         self.wfile.write('success, use:%s seconds'%use_sec)
@@ -42,6 +48,6 @@ class   PostHandler(BaseHTTPRequestHandler):
 
 if __name__=='__main__':
     from BaseHTTPServer import HTTPServer
-    sever = HTTPServer(('localhost',8080),PostHandler)
+    sever = HTTPServer(('0.0.0.0',8080),PostHandler)
     print 'Starting server, use <Ctrl-C> to stop'
     sever.serve_forever()
