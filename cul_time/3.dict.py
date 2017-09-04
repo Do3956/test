@@ -11,14 +11,19 @@ import time
 t1 = time.time()
 
 _dict = {}
-_list = []
-for i in xrange(9999999):
+for i in xrange(1000000):
     _dict[i] = 1
+
+print 'create dict',time.time() - t1
+t1 = time.time()
+
+_list = []
+for i in xrange(1000000):
     _list.append(i)
 
 _set = set(_list)
 
-print time.time() - t1
+print 'create list',time.time() - t1
 t1 = time.time()
 
 if 99999999 in _dict:

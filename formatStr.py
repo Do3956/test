@@ -1,3 +1,4 @@
+#coding:utf8
 def formatName(name):
     '''只要英文和数字'''
     # highpoints = re.compile(u'[\uD800-\uDBFF][\uDC00-\uDFFF]')
