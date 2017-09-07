@@ -1,14 +1,51 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c99f2d0a-6d04-435b-96f0-a369c388a407" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/flask_example/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twisted_example/22.inlineCallbacks.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twisted_example/31.yeild.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twisted_example/41.callback.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twisted_example/42.inlineCallbacks.py" />
+    <list default="true" readonly="true" id="c99f2d0a-6d04-435b-96f0-a369c388a407" name="Default" comment="some examples">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cul_time/1.modifier.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/watch_dog/start_sendFile.bat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tornado_example/2.post.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tornado_example/1.start.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/redis_example/clear_redis.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/language/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tornado_example/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cul_time/2.unix_tool.sh" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/language/thai_len.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cul_time/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tornado_example/1.hello.py" />
+      <change type="DELETED" beforePath="E:/check_game/imgs/test_img/317317" afterPath="" />
+      <change type="DELETED" beforePath="E:/check_game/imgs/test/阿.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="E:/check_game/imgs/test_img/105211" afterPath="" />
+      <change type="DELETED" beforePath="E:/check_game/imgs/test_img/317211" afterPath="" />
+      <change type="DELETED" beforePath="E:/check_game/imgs/test_img/211105" afterPath="" />
+      <change type="DELETED" beforePath="E:/check_game/fonts/STHUPO.TTF" afterPath="" />
+      <change type="DELETED" beforePath="E:/check_game/imgs/test/阿.jpeg.json" afterPath="" />
+      <change type="DELETED" beforePath="E:/check_game/fonts/FZSTK.TTF" afterPath="" />
+      <change type="DELETED" beforePath="E:/check_game/imgs/cult_img_to_json.py" afterPath="" />
+      <change type="DELETED" beforePath="E:/check_game/imgs/initChars.py" afterPath="" />
+      <change type="DELETED" beforePath="E:/check_game/imgs/test_img/211317" afterPath="" />
+      <change type="DELETED" beforePath="E:/check_game/imgs/test/啊.jpeg.json" afterPath="" />
+      <change type="DELETED" beforePath="E:/check_game/imgs/test/啊.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="E:/check_game/imgs/test_img/105317" afterPath="" />
+      <change type="DELETED" beforePath="E:/check_game/imgs/test_img/211211" afterPath="" />
+      <change type="DELETED" beforePath="E:/check_game/imgs/test_img/105105" afterPath="" />
+      <change type="DELETED" beforePath="E:/check_game/imgs/test_img/317105" afterPath="" />
+      <change type="DELETED" beforePath="E:/check_game/fonts/STCAIYUN.TTF" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/twisted_example/31.yield.py" afterPath="$PROJECT_DIR$/twisted_example/32.yield.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/redis_example/connect.py" afterPath="$PROJECT_DIR$/redis_example/connect.py" />
+      <change type="MODIFICATION" beforePath="E:/check_game/.idea/modules.xml" afterPath="E:/check_game/.idea/modules.xml" />
+      <change type="MODIFICATION" beforePath="E:/check_game/util/randomChinese.py" afterPath="E:/check_game/util/randomChinese.py" />
+      <change type="MODIFICATION" beforePath="E:/check_game/WebGameServer.py" afterPath="E:/check_game/WebGameServer.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/log.py" afterPath="$PROJECT_DIR$/log.py" />
+      <change type="MODIFICATION" beforePath="E:/check_game/.idea/vcs.xml" afterPath="E:/check_game/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/twisted_example/2.task.py" afterPath="$PROJECT_DIR$/twisted_example/2.task.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/watch_dog/upFileServer.py" afterPath="$PROJECT_DIR$/watch_dog/upFileServer.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/test.iml" afterPath="$PROJECT_DIR$/.idea/test.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/watch_dog/3.auto_up.py" afterPath="$PROJECT_DIR$/watch_dog/3.auto_up.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="MODIFICATION" beforePath="E:/check_game/.idea/Check_Game.iml" afterPath="E:/check_game/.idea/Check_Game.iml" />
+      <change type="MODIFICATION" beforePath="E:/check_game/client_demo/chineseWeb.py" afterPath="E:/check_game/client_demo/chineseWeb.py" />
+      <change type="MODIFICATION" beforePath="E:/check_game/.idea/workspace.xml" afterPath="E:/check_game/.idea/workspace.xml" />
     </list>
     <ignored path="test.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -28,65 +65,13 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="4.jam_twisted_http.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/twisted_example/4.jam_twisted_http.py">
+      <file leaf-file-name="lockHandler.py" pinned="false" current-in-tab="true">
+        <entry file="file://E:/check_game/app/lockHandler.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="299">
-              <caret line="16" column="16" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="5.jam_thread.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/twisted_example/5.jam_thread.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="543">
-              <caret line="31" column="13" selection-start-line="31" selection-start-column="13" selection-end-line="31" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="2.task.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/twisted_example/2.task.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="138">
-              <caret line="6" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="9" selection-end-column="14" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="11.chat_client.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/twisted_example/11.chat_client.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="253">
-              <caret line="11" column="16" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="16" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="11.chat_system.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/twisted_example/11.chat_system.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="589">
-              <caret line="30" column="18" selection-start-line="30" selection-start-column="18" selection-end-line="30" selection-end-column="18" />
+            <state relative-caret-position="1656">
+              <caret line="83" column="44" selection-start-line="83" selection-start-column="27" selection-end-line="83" selection-end-column="44" />
               <folding>
-                <element signature="e#0#45#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="12.chat_system2.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/twisted_example/12.chat_system2.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1194">
-              <caret line="65" column="25" selection-start-line="65" selection-start-column="25" selection-end-line="65" selection-end-column="25" />
-              <folding>
-                <element signature="e#15#70#0" expanded="true" />
+                <element signature="e#14#25#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -102,21 +87,15 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="E:/check_game" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/formatStr.py" />
-        <option value="$PROJECT_DIR$/twisted_example/hello.py" />
-        <option value="$PROJECT_DIR$/twisted_example/2.events.py" />
-        <option value="$PROJECT_DIR$/twisted_example/2.task.py" />
-        <option value="$PROJECT_DIR$/twisted_example/3.jam.py" />
         <option value="$PROJECT_DIR$/twisted_example/4..py" />
         <option value="$PROJECT_DIR$/twisted_example/4.twisted_http.py" />
         <option value="$PROJECT_DIR$/twisted_example/5.jam_thread.py" />
         <option value="$PROJECT_DIR$/twisted_example/4.jam_twisted_http.py" />
-        <option value="$PROJECT_DIR$/log.py" />
         <option value="$PROJECT_DIR$/twisted_example/chat_client.py" />
         <option value="$PROJECT_DIR$/twisted_example/10.chat_system.py" />
         <option value="$PROJECT_DIR$/twisted_example/11.chat_system2.py" />
@@ -146,16 +125,33 @@
         <option value="$PROJECT_DIR$/twisted_example/41.callback.py" />
         <option value="$PROJECT_DIR$/twisted_example/42.inlineCallbacks.py" />
         <option value="$PROJECT_DIR$/twisted_example/12.chat_system2.py" />
+        <option value="$PROJECT_DIR$/docker/1.MongoDB" />
+        <option value="$PROJECT_DIR$/log.py" />
+        <option value="$USER_HOME$/Desktop/nginx.conf" />
+        <option value="$PROJECT_DIR$/docker/1.nginx" />
+        <option value="$PROJECT_DIR$/cul_time/2.unix_tool.sh" />
+        <option value="E:/UserPayService/UserPayService/handlers.py" />
+        <option value="E:/UserPayService/UserPayService/dboptions.py" />
+        <option value="E:/RealRobot/lhdb/config.json.tw" />
+        <option value="E:/RealRobot/lhdb/config.json" />
+        <option value="E:/UserPayService/handlers.py" />
+        <option value="E:/UserPayService/dboptions.py" />
+        <option value="$PROJECT_DIR$/cul_time/4.hash.py" />
+        <option value="$PROJECT_DIR$/cul_time/3.dict.py" />
+        <option value="$PROJECT_DIR$/lua_example/nginx.lua" />
+        <option value="E:/check_game/WebGameServer.py" />
+        <option value="E:/check_game/app/lockHandler.py" />
+        <option value="E:/check_game/util/answerManager.py" />
+        <option value="E:/check_game/client_demo/lock.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1936" />
-    <option name="height" value="1056" />
+    <option name="x" value="199" />
+    <option name="width" value="1721" />
+    <option name="height" value="1040" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
     <OptionsSetting value="true" id="Remove" />
     <OptionsSetting value="true" id="Checkout" />
@@ -180,6 +176,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -188,104 +185,142 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="check_game" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="check_game" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="client_demo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="check_game" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
       <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="D:/program/python2.7/Lib/site-packages/firefly" />
+    <property name="last_opened_file_path" value="E:/check_game" />
     <property name="settings.editor.selected.configurable" value="preferences.sourceCode.Python" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\RealRobot\lhdb" />
       <recent name="F:\test\twisted_example" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.42.inlineCallbacks">
-    <configuration default="false" name="30.yield_example" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.lock">
+    <configuration default="false" name="robot" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/twisted_example" />
+      <option name="WORKING_DIRECTORY" value="E:/RealRobot/lhdb" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="test" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/twisted_example/30.yield_example.py" />
+      <module name="RealRobot" />
+      <option name="SCRIPT_NAME" value="E:/RealRobot/lhdb/robot.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
     </configuration>
-    <configuration default="false" name="31.yield" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration default="false" name="3.dict" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/twisted_example" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/cul_time" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="test" />
-      <option name="SCRIPT_NAME" value="F:\test\twisted_example\32.yield.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/cul_time/3.dict.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
     </configuration>
-    <configuration default="false" name="31.yeild" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration default="false" name="4.hash" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/twisted_example" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/cul_time" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="test" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/twisted_example/31.yeild.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/cul_time/4.hash.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
     </configuration>
-    <configuration default="false" name="41.callback" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration default="false" name="WebGameServer" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/twisted_example" />
+      <option name="WORKING_DIRECTORY" value="E:/check_game" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="test" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/twisted_example/41.callback.py" />
+      <module name="check_game" />
+      <option name="SCRIPT_NAME" value="E:/check_game/WebGameServer.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
     </configuration>
-    <configuration default="false" name="42.inlineCallbacks" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration default="false" name="lock" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/twisted_example" />
+      <option name="WORKING_DIRECTORY" value="E:/check_game/client_demo" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="test" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/twisted_example/42.inlineCallbacks.py" />
+      <module name="check_game" />
+      <option name="SCRIPT_NAME" value="E:/check_game/client_demo/lock.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -425,24 +460,28 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.30.yield_example" />
-      <item index="1" class="java.lang.String" itemvalue="Python.31.yield" />
-      <item index="2" class="java.lang.String" itemvalue="Python.31.yeild" />
-      <item index="3" class="java.lang.String" itemvalue="Python.41.callback" />
-      <item index="4" class="java.lang.String" itemvalue="Python.42.inlineCallbacks" />
+      <item index="0" class="java.lang.String" itemvalue="Python.robot" />
+      <item index="1" class="java.lang.String" itemvalue="Python.3.dict" />
+      <item index="2" class="java.lang.String" itemvalue="Python.4.hash" />
+      <item index="3" class="java.lang.String" itemvalue="Python.WebGameServer" />
+      <item index="4" class="java.lang.String" itemvalue="Python.lock" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.42.inlineCallbacks" />
-        <item index="1" class="java.lang.String" itemvalue="Python.41.callback" />
-        <item index="2" class="java.lang.String" itemvalue="Python.31.yeild" />
-        <item index="3" class="java.lang.String" itemvalue="Python.30.yield_example" />
-        <item index="4" class="java.lang.String" itemvalue="Python.31.yield" />
+        <item index="0" class="java.lang.String" itemvalue="Python.lock" />
+        <item index="1" class="java.lang.String" itemvalue="Python.WebGameServer" />
+        <item index="2" class="java.lang.String" itemvalue="Python.3.dict" />
+        <item index="3" class="java.lang.String" itemvalue="Python.4.hash" />
+        <item index="4" class="java.lang.String" itemvalue="Python.robot" />
       </list>
     </recent_temporary>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration" cleanupOnStartRun="true">
+    <configuration>C:\Users\admin\AppData\Roaming\Subversion</configuration>
+    <supportedVersion>125</supportedVersion>
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -463,26 +502,26 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="false" />
+    <frame x="199" y="0" width="1721" height="1040" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.102212854" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15151516" sideWeight="0.86504066" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.44211686" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.1323043" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18398269" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23076923" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30981258" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19155844" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.17919888" sideWeight="0.13495935" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31201765" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
@@ -495,15 +534,15 @@
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.1323043" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18398269" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.34950384" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32194045" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19155844" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1552" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17919888" sideWeight="0.86504066" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2094818" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17919888" sideWeight="0.13495935" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31201765" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
     </layout-to-restore>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -526,180 +565,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/getsql.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/reactortest.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/twisted_example/1.hello.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/twisted_example/2.task.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="6" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="9" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/twisted_example/3.jam.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/fileTransfer.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="22" column="4" selection-start-line="22" selection-start-column="4" selection-end-line="22" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/formatStr.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23">
-          <caret line="1" column="14" selection-start-line="1" selection-start-column="14" selection-end-line="1" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/getsql.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/reactortest.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/twisted_example/1.hello.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://E:/Check_Game/imgs_json/chineses/阿.jpeg.json" />
-    <entry file="file://$PROJECT_DIR$/twisted_example/3.jam.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23">
-          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="3" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/log.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23">
-          <caret line="1" column="13" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/program/python2.7/Lib/site-packages/twisted/internet/interfaces.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="41331">
-          <caret line="1799" column="6" selection-start-line="1799" selection-start-column="6" selection-end-line="1799" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/program/python2.7/Lib/site-packages/twisted/python/log.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="16261">
-          <caret line="733" column="4" selection-start-line="733" selection-start-column="4" selection-end-line="733" selection-end-column="4" />
-          <folding>
-            <element signature="e#166#214#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/program/python2.7/Lib/site-packages/twisted/internet/protocol.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="11569">
-          <caret line="511" column="6" selection-start-line="511" selection-start-column="6" selection-end-line="511" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/fff.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="552">
-          <caret line="24" column="8" selection-start-line="0" selection-start-column="0" selection-end-line="32" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/twisted_example/13.chat_system3.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2636">
-          <caret line="129" column="31" selection-start-line="129" selection-start-column="31" selection-end-line="129" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/twisted_example/12.chat_client.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="148" column="27" selection-start-line="148" selection-start-column="0" selection-end-line="149" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/twisted_example/14.chat_client.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
-          <caret line="128" column="8" selection-start-line="128" selection-start-column="8" selection-end-line="128" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/program/python2.7/Lib/site-packages/twisted/protocols/basic.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="627" column="8" selection-start-line="627" selection-start-column="8" selection-end-line="627" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/twisted_example/14.chat_system4.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="251">
-          <caret line="79" column="19" selection-start-line="79" selection-start-column="16" selection-end-line="79" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/program/redis-2.4.5-win32-win64/64bit/redis.conf">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-452">
-          <caret line="65" column="62" selection-start-line="65" selection-start-column="58" selection-end-line="65" selection-end-column="62" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/redis_example/publisher.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="6" column="27" selection-start-line="6" selection-start-column="27" selection-end-line="6" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/redis_example/subscriber.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/redis_example/publish_server.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="317">
@@ -732,9 +597,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3496">
           <caret line="158" column="26" selection-start-line="158" selection-start-column="25" selection-end-line="158" selection-end-column="26" />
-          <folding>
-            <element signature="e#15#57#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -742,7 +604,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="42090">
           <caret line="1854" column="8" selection-start-line="1854" selection-start-column="8" selection-end-line="1854" selection-end-column="8" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -750,11 +611,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30751">
           <caret line="1357" column="8" selection-start-line="1357" selection-start-column="8" selection-end-line="1357" selection-end-column="8" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://E:/Check_Game/.gitignore">
+    <entry file="file://E:/check_game/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="23">
           <caret line="1" column="9" selection-start-line="1" selection-start-column="9" selection-end-line="1" selection-end-column="9" />
@@ -765,7 +625,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-881">
           <caret line="1378" column="19" selection-start-line="1378" selection-start-column="4" selection-end-line="1378" selection-end-column="19" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -773,7 +632,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="276">
           <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -781,7 +639,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="130">
           <caret line="79" column="26" selection-start-line="79" selection-start-column="26" selection-end-line="79" selection-end-column="26" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -789,7 +646,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="115">
           <caret line="5" column="3" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -797,7 +653,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="368">
           <caret line="16" column="24" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -805,7 +660,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="897">
           <caret line="39" column="25" selection-start-line="39" selection-start-column="25" selection-end-line="39" selection-end-column="25" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -813,7 +667,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
           <caret line="19" column="8" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="8" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -821,9 +674,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1288">
           <caret line="56" column="10" selection-start-line="56" selection-start-column="10" selection-end-line="56" selection-end-column="10" />
-          <folding>
-            <element signature="e#0#11#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -831,9 +681,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="713">
           <caret line="37" column="57" selection-start-line="37" selection-start-column="51" selection-end-line="37" selection-end-column="57" />
-          <folding>
-            <element signature="e#94#105#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -841,7 +688,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="460">
           <caret line="20" column="12" selection-start-line="20" selection-start-column="12" selection-end-line="20" selection-end-column="12" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -849,9 +695,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="766">
           <caret line="44" column="30" selection-start-line="44" selection-start-column="30" selection-end-line="44" selection-end-column="30" />
-          <folding>
-            <element signature="e#93#104#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -859,9 +702,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="819">
           <caret line="47" column="17" selection-start-line="47" selection-start-column="17" selection-end-line="47" selection-end-column="17" />
-          <folding>
-            <element signature="e#94#128#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -869,23 +709,20 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="299">
           <caret line="16" column="16" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/twisted_example/5.jam_thread.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="543">
+        <state relative-caret-position="667">
           <caret line="31" column="13" selection-start-line="31" selection-start-column="13" selection-end-line="31" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/twisted_example/2.task.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="138">
-          <caret line="6" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="9" selection-end-column="14" />
-          <folding />
+          <caret line="7" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="10" selection-end-column="14" />
         </state>
       </provider>
     </entry>
@@ -893,26 +730,191 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="253">
           <caret line="11" column="16" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="16" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/twisted_example/11.chat_system.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="589">
+        <state relative-caret-position="644">
           <caret line="30" column="18" selection-start-line="30" selection-start-column="18" selection-end-line="30" selection-end-column="18" />
-          <folding>
-            <element signature="e#0#45#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/twisted_example/12.chat_system2.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1194">
-          <caret line="65" column="25" selection-start-line="65" selection-start-column="25" selection-end-line="65" selection-end-column="25" />
+        <state relative-caret-position="412">
+          <caret line="45" column="37" selection-start-line="45" selection-start-column="37" selection-end-line="45" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/nginx.conf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-67">
+          <caret line="93" column="34" selection-start-line="93" selection-start-column="34" selection-end-line="93" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docker/1.nginx" />
+    <entry file="file://$PROJECT_DIR$/log.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="35" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/UserPayService/UserPayService/dboptions.py" />
+    <entry file="file://E:/UserPayService/UserPayService/handlers.py" />
+    <entry file="file://E:/UserPayService/UserPayService/application.py" />
+    <entry file="file://E:/UserPayService/application.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="21" column="50" selection-start-line="21" selection-start-column="50" selection-end-line="21" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/RealRobot/lhdb/config.json.tw">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="1" column="15" selection-start-line="1" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/RealRobot/lhdb/robot.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/RealRobot/lhdb/config.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="851">
+          <caret line="37" column="23" selection-start-line="37" selection-start-column="23" selection-end-line="37" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/UserPayService/dboptions.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="14" column="37" selection-start-line="14" selection-start-column="37" selection-end-line="14" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/UserPayService/handlers.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="22" column="51" selection-start-line="22" selection-start-column="51" selection-end-line="22" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/getsql.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cul_time/2.unix_tool.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="7" column="41" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cul_time/1.modifier.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cul_time/4.hash.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="9" column="6" selection-start-line="9" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cul_time/3.dict.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="7" column="3" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lua_example/nginx.lua">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="29" column="53" selection-start-line="29" selection-start-column="53" selection-end-line="29" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/check_game/test/test_global.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#15#70#0" expanded="true" />
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/check_game/util/checkSign.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="13" column="8" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/check_game/app/choiceChineseHandler.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="56" column="47" selection-start-line="56" selection-start-column="29" selection-end-line="56" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/check_game/util/answerManager.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="28" column="8" selection-start-line="28" selection-start-column="8" selection-end-line="28" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/check_game/client_demo/lock.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="29" column="37" selection-start-line="29" selection-start-column="37" selection-end-line="29" selection-end-column="37" />
+          <folding>
+            <element signature="e#185#215#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/check_game/WebGameServer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="713">
+          <caret line="45" column="31" selection-start-line="45" selection-start-column="31" selection-end-line="45" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/check_game/app/lockHandler.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1656">
+          <caret line="83" column="44" selection-start-line="83" selection-start-column="27" selection-end-line="83" selection-end-column="44" />
+          <folding>
+            <element signature="e#14#25#0" expanded="true" />
           </folding>
         </state>
       </provider>

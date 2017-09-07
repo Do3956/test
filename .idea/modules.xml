@@ -2,6 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://E:/RealRobot/.idea/RealRobot.iml" filepath="E:/RealRobot/.idea/RealRobot.iml" />
+      <module fileurl="file://E:/UserPayService/.idea/UserPayService.iml" filepath="E:/UserPayService/.idea/UserPayService.iml" />
+      <module fileurl="file://E:/check_game/.idea/check_game.iml" filepath="E:/check_game/.idea/check_game.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/helper.iml" filepath="$PROJECT_DIR$/.idea/helper.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/test.iml" filepath="$PROJECT_DIR$/.idea/test.iml" />
     </modules>
