@@ -11,14 +11,14 @@ port = 6379
 r = redis.Redis(host=host, port=port)
 p = r.pipeline(transaction=False)
 
+
 #普通连接
 print '------------普通连接'
 start = time.time()
 for i in xrange(60000):
-    # r = redis.StrictRedis(host=host, port=port, password=password)
-    # p.set('name','do')
-    p.get('name')
-p.execute()
+    p.rpush('mysql:add','tb_user_01|%s,%s,%s,%s,%s'%(i,i,i,i,i))
+rst = p.execute()
+print rst
 print time.time() - start
 #
 # #连接池

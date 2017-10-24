@@ -7,31 +7,36 @@ twisted自带的httpclient进行访问，twisted自带的httpclient由于是异�
 import time
 from twisted.web.client import Agent
 from twisted.web.http_headers import Headers
-from twisted.internet import reactor, task, defer
+from twisted.internet import reactor, task
+from twisted.internet.defer import inlineCallbacks, Deferred, returnValue
 
 
 def hello(name):
     print("Hello world!===>" + name + '===>' + str(int(time.time())))
 
 
-@defer.inlineCallbacks
+@inlineCallbacks
 def request_google():
     agent = Agent(reactor)
     try:
         hello('request_google start...')
-        result = yield agent.request('GET', 'http://www.google.com', Headers({'User-Agent': ['Twisted Web Client Example']}), None)
+        # result = yield agent.request('GET', 'http://www.google.com', Headers({'User-Agent': ['Twisted Web Client Example']}), None)
+        result = yield agent.request('GET', 'http://www.baidu.com', Headers({'User-Agent': ['Twisted Web Client Example']}), None)
+        returnValue(result)
+
     except Exception as e:
         print e
         return
-    print(result)
+    # print(result)
     hello('request_google end...')
 
 
 
 reactor.callWhenRunning(hello, 'yudahai')
 
-reactor.callLater(1, request_google)
+# print 11111 ,reactor.callLater(1, request_google)
+print 2222,request_google()
 
-reactor.callLater(3, hello, 'yuyue')
+reactor.callLater(2, hello, 'yuyue')
 
 reactor.run()
