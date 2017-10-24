@@ -1,0 +1,19 @@
+# encoding: utf-8
+
+"""
+@version: v1.0
+@author: do
+@time: 2017/9/19 22:35
+
+---更慢了···
+"""
+
+import timeit
+
+a, b = 30, 60
+num = 100000
+
+t_python = timeit.Timer("test_list(%s,%s)" % (a,b),"from list_python import test_list")
+print "python function", t_python.timeit(num), "sec"
+t_cython = timeit.Timer("test_list(%s,%s)" % (a,b),"from list_cython import test_list")
+print "cython function", t_cython.timeit(num), "sec"
