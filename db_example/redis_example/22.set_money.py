@@ -8,6 +8,9 @@ __content__ = ''
 import redis
 from redis import sentinel
 
+# host = 'r-t4nc28090602a3b4.redis.singapore.rds.aliyuncs.com'
+# port = 6379
+# pwd = 'ZJOaGpoSbtGMD8GajyYbH6l7'
 host = 'r-t4nc28090602a3b4.redis.singapore.rds.aliyuncs.com'
 port = 6379
 pwd = 'ZJOaGpoSbtGMD8GajyYbH6l7'
@@ -18,6 +21,6 @@ keys = rds.keys("hu:*")
 
 counter = 0
 for k in keys:
-    pip.hset(k, 'money', 99999999).get('money')
+    pip.hmset(k, 'diamond', 99999999)
 pip.execute()
 print "over."

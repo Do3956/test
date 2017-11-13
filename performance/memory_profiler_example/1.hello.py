@@ -3,7 +3,8 @@
 """ 
 @version: v1.0 
 @author: do 
-@time: 2017/8/23 23:19 
+@time: 2017/8/23 23:19
+yum install psutil
 """ 
 
 import time
@@ -11,10 +12,12 @@ from memory_profiler import profile
 
 @profile
 def my_func():
-    a = [1] * (10 ** 6)
-    # b = [2] * (2 * 10 ** 7)
+    a = []
+    for i in xrange(10000):
+        b = {'net_1,%s'%i:i}
+        a.append(i)
+        b = [2] * 10000
     # print a,b
-    time.sleep(1)
     # del b
     del a
     # print "+++++++++"

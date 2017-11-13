@@ -4,6 +4,7 @@ __author__ = 'do'
 __mtime__ = '2017/10/24'
 __content__ = ''
 """
+import json
 import tornado.httpserver
 import tornado.ioloop
 import tornado.options
@@ -17,26 +18,24 @@ define("port", default=8002, help="run on the given port", type=int)
 class IndexHandler(tornado.web.RequestHandler):
     @tornado.web.asynchronous
     def get(self):
-        # greeting = self.get_argument('greeting', 'Hello')
-        # self.write(greeting + ', friendly user!')
-        # return
         print 22222
+        url = 'http://120.76.98.236:23457/phone'
+        url = 'http://www.google.com'
+
+        info = json.dumps({'key':'login_check', 'phone':'17603092933', 'code':'6666', 'action':'test'})
         client = AsyncHTTPClient()
-        rst = client.fetch("http://www.facebook.com", request_timeout=20, callback=self.test_callback)
+        rst = client.fetch(url, method='POST', request_timeout=3, callback=self.handle_response, body=info)
         print rst
-        self.flush()
+        self.flush()#支持异步的关键
 
-    def test_callback(self, response):
-        print response
-        print response.error
-        print response.body
-        # self.write(response.body)
-        self.write('11111')
-        '''
-        refer the offical document, we are responsible for the invocation of the finish function in the async case.
-        '''
-        self.finish()
+    def handle_response(self, response):
+        if response.error:
+            print("Error: %s" % response.error)
+        else:
+            self.write(json.dumps(response.body))
+            print(response.body)
 
+        self.finish()#支持异步的关键
 
 if __name__ == "__main__":
     tornado.options.parse_command_line()
