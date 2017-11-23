@@ -22,7 +22,7 @@ class IndexHandler(tornado.web.RequestHandler):
         # return
         print 22222
         client = AsyncHTTPClient()
-        rst = client.fetch("http://www.facebook.com", request_timeout=20, callback=self.test_callback)
+        rst = client.fetch("http://www.facebook.com", request_timeout=3, callback=self.test_callback)
         print rst
         self.flush()
 
