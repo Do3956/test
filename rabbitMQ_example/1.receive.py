@@ -10,6 +10,7 @@ credentials = pika.PlainCredentials('zyl','pwd_zyl')
 
 connection = pika.BlockingConnection(pika.ConnectionParameters(credentials=credentials,
     host='112.74.75.38', port=5670, socket_timeout=2, blocked_connection_timeout=2))
+print 'connection', connection
 channel = connection.channel()
 
 channel.queue_declare(queue='hello')

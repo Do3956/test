@@ -34,8 +34,13 @@ class MungedPageHandler(tornado.web.RequestHandler):
         text_to_change = self.get_argument('change')
         source_map = self.map_by_first_letter(source_text)
         change_lines = text_to_change.split('\r\n')
+        choice = random.choice
+        print 'source_map',source_map
+        print 'change_lines',change_lines
+        print 'choice',choice
+
         self.render('munged.html', source_map=source_map, change_lines=change_lines,
-                choice=random.choice)
+                choice=choice)
 
 if __name__ == '__main__':
     tornado.options.parse_command_line()

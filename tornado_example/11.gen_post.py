@@ -16,16 +16,16 @@ from tornado.options import define, options
 define("port", default=8002, help="run on the given port", type=int)
 
 class IndexHandler(tornado.web.RequestHandler):
-    # @tornado.web.asynchronous
+    # @tornado.web.asynchronous #保持连接，不主动断开
     def get(self):
-        print 22222,time.time()
+        print 'enter',time.time()
         url = 'http://120.76.98.236:23457/phone'
         url = 'http://www.google.com'
 
         info = json.dumps({'key':'login_check', 'phone':'17603092933', 'code':'6666', 'action':'test'})
         client = AsyncHTTPClient()
         rst = client.fetch(url, method='POST', request_timeout=3, callback=self.handle_response, body=info)
-        print rst
+        print 'back',time.time()
         # self.flush()#支持异步的关键
 
     def handle_response(self, response):
@@ -36,7 +36,7 @@ class IndexHandler(tornado.web.RequestHandler):
             self.write(json.dumps(response.body))
             print(response.body)
 
-        # self.finish()#支持异步的关键
+        # self.finish()#断开连接
 
 if __name__ == "__main__":
     tornado.options.parse_command_line()
