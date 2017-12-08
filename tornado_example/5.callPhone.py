@@ -7,7 +7,7 @@ __content__ = ''
 
 import urllib
 import textwrap
-
+import ujson
 import tornado.httpserver
 import tornado.ioloop
 import tornado.options
@@ -15,32 +15,28 @@ import tornado.web
 from tornado.httpclient import AsyncHTTPClient
 from tornado.options import define, options
 
-define("port", default=5200, help="run on the given port", type=int)
-
-
-class ReverseHandler(tornado.web.RequestHandler):
-    # http://localhost:8000/reverse/?a=23&b=1
-    def get(self):
-        userid = self.get_argument('userid')
-        self.write(userid)
+define("port", default=8000, help="run on the given port", type=int)
 
 
 class getUrl(tornado.web.RequestHandler):
     def get(self):
-        info = {'a':'login_check', 'b':'17603092933'}
-        params = urllib.urlencode(info)
         client = AsyncHTTPClient()
-        # url = "http://localhost:8000/reverse/?a=23&b=1"
-        url = "http://localhost:8000/reverse/?"
-        rst = client.fetch(url, method='GET', request_timeout=3, body=params)
+        url = "http://120.24.36.18:23457/phone"
+        data = {"key": "login_check", "phone": "17603092933", "code": "1234", "action": 'test'}
 
+        rst = client.fetch(url, method='POST', request_timeout=3, callback=self.handle_response, body=ujson.dumps(data))
+
+    def handle_response(self, response):
+        if response.error:
+            print("Error: %s" % response.error)
+        else:
+            print(response.body)
 
 if __name__ == "__main__":
     tornado.options.parse_command_line()
     app = tornado.web.Application(
         handlers=[
-            (r"/", ReverseHandler),
-            (r"/", getUrl)
+            (r"/", getUrl),
         ]
     )
     http_server = tornado.httpserver.HTTPServer(app)

@@ -1,10 +1,6 @@
 #coding:utf8
 import redis
 import time
-# host = '120.25.174.76'
-# port = 8380
-# password = 'Zyl_Baoshi@redis#1'
-# r = redis.Redis(host=host, port=port, password=password)
 
 host = '127.0.0.1'
 port = 6379

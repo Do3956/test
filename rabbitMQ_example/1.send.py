@@ -8,8 +8,14 @@ import pika
 
 print 666666666
 credentials = pika.PlainCredentials('zyl','pwd_zyl')
+host = '112.74.75.38'
+port=5670
+host = '192.168.1.77'
+port=5672
+
 connection = pika.BlockingConnection(pika.ConnectionParameters(credentials=credentials,
-    host='112.74.75.38', port=5670, socket_timeout=2, blocked_connection_timeout=2))
+    host=host, port=port, socket_timeout=2, blocked_connection_timeout=2))
+
 print 333333333333
 channel = connection.channel()
 channel.queue_declare(queue='hello')

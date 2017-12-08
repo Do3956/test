@@ -23,18 +23,21 @@ class getUrlPost(tornado.web.RequestHandler):
         print type(number), number, number.isdigit()
         number = str(number)
         print type(number), number, isinstance(number, int), number.isdigit()
+        self.write("number")
 
 class getUrl(tornado.web.RequestHandler):
     def get(self,number):
         print type(number), number, number.isdigit()
         number = str(number)
         print type(number), number, isinstance(number, int), number.isdigit()
+        self.write("number")
+
 
 if __name__ == "__main__":
     tornado.options.parse_command_line()
     app = tornado.web.Application(
         handlers=[
-            (r"/([0-9]*)", getUrl),
+            (r"/", getUrl),
             (r"/getUrlPost/(\w*)", getUrlPost),
         ]
     )

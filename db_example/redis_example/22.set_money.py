@@ -10,10 +10,10 @@ from redis import sentinel
 
 # host = 'r-t4nc28090602a3b4.redis.singapore.rds.aliyuncs.com'
 # port = 6379
-# pwd = 'ZJOaGpoSbtGMD8GajyYbH6l7'
+# pwd = '123'
 host = 'r-t4nc28090602a3b4.redis.singapore.rds.aliyuncs.com'
 port = 6379
-pwd = 'ZJOaGpoSbtGMD8GajyYbH6l7'
+pwd = '123'
 
 rds = redis.Redis(host=host, port=port, password=pwd)
 pip = rds.pipeline(transaction=False)

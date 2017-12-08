@@ -4,9 +4,9 @@
 import redis
 import time
 
-host = '120.24.36.18'
+host = '120.24.36.12'
 port = 7379
-password = 'Zyl_Baoshi@redis#1'
+password = '123'
 
 dbid = 4
 

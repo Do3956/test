@@ -2,8 +2,8 @@
 import redis
 from redis import sentinel
 
-# s = sentinel.Sentinel([("120.25.174.76", 27380)], password = "Zyl_Baoshi@redis#1")
-rds = redis.Redis(host="120.24.36.18", port=7379, password="Zyl_Baoshi@redis#1")
+# s = sentinel.Sentinel([("120.25.174.12", 27380)], password = "123")
+rds = redis.Redis(host="120.24.36.12", port=7379, password="123")
 pip = rds.pipeline(transaction=False)
 keys = rds.keys("hu:*")
 print 'keys:',keys

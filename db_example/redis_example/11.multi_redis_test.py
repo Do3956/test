@@ -9,7 +9,7 @@ import multiprocessing
 h = "127.0.0.1" #r-wz95bd3a73645344.redis.rds.aliyuncs.com #10.44.127.92
 p = 6379
 rds = redis.Redis(host = h, port = p)
-# a = "Zyl_Baoshi@redis#1"   # Zyl123456 Zyl_Baoshi@redis#1
+# a = "Zyl123456"
 # rds = redis.Redis(host = h, port = p, password = a)
 
 num = 10

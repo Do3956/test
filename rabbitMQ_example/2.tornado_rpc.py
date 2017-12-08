@@ -51,12 +51,12 @@ class Fib(tornado.web.RequestHandler):
 
     def on_mq_declare(self, frame):
         lg = "Queue {0} Declared. Now binding.".format(self.queue_name)
-        pika.log.info(lg)
+        print(lg)
         self.mq_ch.queue_bind(exchange='', queue=self.queue_name,
                               callback=self.on_queue_bind)
 
     def on_queue_bind(self, frame):
-        pika.log.info('Queue Bound. Issuing Basic Consume.')
+        print('Queue Bound. Issuing Basic Consume.')
         self.mq_ch.basic_consume(consumer_callback=self.on_rpc_response,
                                  queue=self.queue_name, no_ack=True)
 
@@ -66,14 +66,14 @@ class Fib(tornado.web.RequestHandler):
                                      delivery_mode=1,
                                      correlation_id=self.corr_id,
                                      reply_to=self.queue_name)
-        pika.log.info('About to issue Basic Publish.')
+        print('About to issue Basic Publish.')
         self.mq_ch.basic_publish(exchange='', routing_key='rpc_queue',
                                  body=str(self.number), properties=props,
                                  mandatory=1)
 
     def on_rpc_response(self, channel, method, header, body):
         lg = "RPC response: delivery tag #{0} | Body: {1}"
-        pika.log.info(lg.format(method.delivery_tag, body))
+        print(lg.format(method.delivery_tag, body))
         if header.correlation_id != self.corr_id:
             # I'm actually not sure what to do here yet.
             raise Exception('Someone dialed a wrong number.')
@@ -97,9 +97,9 @@ class PikaClient(object):
 
     def connect(self):
         if self.connecting:
-            pika.log.info('Already connecting to RabbitMQ.')
+            print('Already connecting to RabbitMQ.')
             return
-        pika.log.info("Connecting to RabbitMQ")
+        print("Connecting to RabbitMQ")
         self.connecting = True
         creds = pika.PlainCredentials('zyl', 'pwd_zyl')
         params = pika.ConnectionParameters(host='112.74.75.38', port=5672,
@@ -113,7 +113,7 @@ class PikaClient(object):
         connection.channel(self.on_channel_open)
 
     def on_channel_open(self, channel):
-        pika.log.info('Channel Open')
+        print('Channel Open')
         self.channel = channel
         # I'm having trouble using named exchanges.
         ## channel.exchange_declare(exchange='rpc_ex', type='direct',
@@ -121,10 +121,10 @@ class PikaClient(object):
         ##                          callback=self.on_exchange_declare)
 
     def on_exchange_declare(self, frame):
-        pika.log.info("Exchange declared.")
+        print("Exchange declared.")
 
     def on_basic_cancel(self, frame):
-        pika.log.info('Basic Cancel Ok.')
+        print('Basic Cancel Ok.')
         # If we don't have any more consumer processes running close
         self.connection.close()
 
@@ -134,7 +134,6 @@ class PikaClient(object):
 
 
 def main():
-    pika.log.setup(color=True)
     pika_client = PikaClient()
     application = tornado.web.Application(
         [(r'/([0-9]*)', Fib)],

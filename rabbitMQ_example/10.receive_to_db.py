@@ -8,8 +8,9 @@ __content__ = '断线重连机制'
 import pika
 import logging
 import time
+import ujson
 
-class ExampleConsumer(object):
+class PakiConsumer(object):
     """This is an example consumer that will handle unexpected interactions
     with RabbitMQ such as channel and connection closures.
 
@@ -348,18 +349,28 @@ class ExampleConsumer(object):
         self._connection.close()
 
 
-def main():
+def getConfig():
     config = {
-                    "user":"zyl",
-                    "passwd":"pwd_zyl",
-                    "host":"112.74.75.38",
-                    "port":5670
-                }
-    example = ExampleConsumer('amqp://%s:%s@%s:%s/%s'%(config.get("user"),config.get("passwd"),config.get("host"),config.get("port"),'%2F'))
+        "user": "zyl",
+        "passwd": "pwd_zyl",
+        "host": "112.74.75.38",
+        "port": 5670
+    }
+    return config
+
+def main():
+    config = getConfig()
+    pikaClient = PakiConsumer('amqp://%s:%s@%s:%s/%s'%(config.get("user"),config.get("passwd"),config.get("host"),config.get("port"),'%2F'))
     try:
-        example.run()
+        pikaClient.run()
     except KeyboardInterrupt:
-        example.stop()
+        pikaClient.stop()
 
 if __name__ == '__main__':
     main()
+else:
+    with open("config.json","rb") as f:
+        config = ujson.load(f)
+    config = config.get("rabbitmq")
+    pikaClient = PakiConsumer('amqp://%s:%s@%s:%s/%s'%(config.get("user"),config.get("passwd"),config.get("host"),config.get("port"),'%2F'))
+
