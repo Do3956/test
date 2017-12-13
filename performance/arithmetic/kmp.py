@@ -34,9 +34,8 @@ def KMP_Match_1(s, t):
     if slen >= tlen:
         i = 0
         j = 0
-        next_list = [-2 for i in range(len(t))]
-        getNext_1(t, next_list)
-        # print next_list
+        next_list = getNext_1(t)
+        print 'next_list',next_list
         while i < slen:
             if j == -1 or s[i] == t[j]:
                 i = i + 1
@@ -55,8 +54,7 @@ def KMP_Match_2(s, t):
     if slen >= tlen:
         i = 0
         j = 0
-        next_list = [-2 for i in range(len(t))]
-        getNext_2(t, next_list)
+        next_list = getNext_2(t)
         # print next_list
         while i < slen:
             if j == -1 or s[i] == t[j]:
@@ -69,7 +67,8 @@ def KMP_Match_2(s, t):
     return -1
 
 
-def getNext_1(t, next_list):
+def getNext_1(t):
+    next_list = [-2 for i in range(len(t))]
     next_list[0] = -1
     j = 0
     k = -1
@@ -82,7 +81,8 @@ def getNext_1(t, next_list):
             k = next_list[k]
 
 
-def getNext_2(t, next_list):
+def getNext_2(t):
+    next_list = [-2 for i in range(len(t))]
     next_list[0] = -1
     next_list[1] = 0
     for i in range(2, len(t)):
