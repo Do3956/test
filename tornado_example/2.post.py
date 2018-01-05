@@ -24,9 +24,13 @@ class ReverseHandler(tornado.web.RequestHandler):
 
 class WrapHandler(tornado.web.RequestHandler):
     def post(self):
+        print 111111111
+        print self.request.body
+        print self.get_argument('text')
+        print 2222222222
         text = self.get_argument('text')
-        width = self.get_argument('width', 40)
-        self.write(textwrap.fill(text, int(width)))
+        self.add_header("Access-Control-Allow-Origin", "*")
+        self.write(textwrap.fill(text))
 
 
 if __name__ == "__main__":
@@ -34,7 +38,7 @@ if __name__ == "__main__":
     app = tornado.web.Application(
         handlers=[
             (r"/reverse/(\w+)", ReverseHandler),
-            (r"/wrap", WrapHandler)
+            (r"/", WrapHandler)
         ]
     )
     http_server = tornado.httpserver.HTTPServer(app)

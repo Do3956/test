@@ -11,7 +11,7 @@ import tornado.options
 import tornado.web
 
 from tornado.options import define, options
-define("port", default=8001, help="run on the given port", type=int)
+define("port", default=5000, help="run on the given port", type=int)
 
 num = 0
 def startTimer():
@@ -26,6 +26,7 @@ class IndexHandler(tornado.web.RequestHandler):
     def get(self):
         global num
         num += 1
+        self.add_header("Access-Control-Allow-Origin", "*")
         greeting = self.get_argument('greeting', 'Hello')
         self.write(greeting + ', friendly user!')
 
