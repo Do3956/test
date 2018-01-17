@@ -24,10 +24,9 @@ class ReverseHandler(tornado.web.RequestHandler):
 
 class WrapHandler(tornado.web.RequestHandler):
     def post(self):
-        print 111111111
         print self.request.body
-        print self.get_argument('text')
-        print 2222222222
+        test = self.get_argument('text')
+        print type(test)
         text = self.get_argument('text')
         self.add_header("Access-Control-Allow-Origin", "*")
         self.write(textwrap.fill(text))

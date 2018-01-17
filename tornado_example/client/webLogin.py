@@ -39,15 +39,12 @@ import time
 import base64
 import ujson
 
-url = 'http://120.25.171.126:30100/old/?userid=' + '1829'
-url = 'https://web1.ganggui.com.cn:51001/old/?userid=' + '1829'
-# url = 'http://127.0.0.1:8000/old/?userid=' + '1829'
+url = 'http://120.25.171.126:30000/getClientVersionInfo/'
+url = 'https://web1.ganggui.com.cn:51000/getClientVersionInfo/'
 
 data = {
-    "targetKey":160,
-    "token":"4ab8012847860273709acb8338401aae",
+    "UniqueSerial":'000000-001-157',
     "ts":int(time.time()),
-    "nickname":'hello',
         }
 
 sort_data = sorted(data.iteritems(), key=lambda a:a[0])

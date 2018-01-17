@@ -8,6 +8,7 @@ import tornado.httpserver
 import tornado.ioloop
 import tornado.options
 from tornado import gen
+import time
 from tornado.httpclient import AsyncHTTPClient
 import tornado.web
 
@@ -15,12 +16,12 @@ from tornado.options import define, options
 define("port", default=8002, help="run on the given port", type=int)
 
 class IndexHandler(tornado.web.RequestHandler):
-    @tornado.web.asynchronous
+    @tornado.web.asynchronous #保持连接，不主动断开
     def get(self):
         # greeting = self.get_argument('greeting', 'Hello')
         # self.write(greeting + ', friendly user!')
         # return
-        print 22222
+        print 22222,time.time()
         client = AsyncHTTPClient()
         rst = client.fetch("http://www.facebook.com", request_timeout=3, callback=self.test_callback)
         print rst

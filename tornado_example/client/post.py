@@ -6,5 +6,5 @@ __content__ = ''
 """
 
 import requests
-rst = requests.post("http://120.24.36.18:5000/")
+rst = requests.post("http://127.0.0.1:5000/")
 print rst.content

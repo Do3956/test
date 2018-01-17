@@ -4,7 +4,7 @@
 import redis
 import time
 
-host = '120.24.36.12'
+host = '0.0.1.12'
 port = 7379
 password = '123'
 
