@@ -41,22 +41,25 @@ import ujson
 
 url = 'http://120.25.171.126:30000/getClientVersionInfo/'
 url = 'https://web1.ganggui.com.cn:51000/getClientVersionInfo/'
-
 data = {
     "UniqueSerial":'000000-001-157',
     "ts":int(time.time()),
         }
 
-sort_data = sorted(data.iteritems(), key=lambda a:a[0])
-sign = ujson.dumps(sort_data, ensure_ascii=False)
+
+sign=md5(ujson.dumps(data, sort_keys=True, ensure_ascii=False))
 data['sign'] = md5(sign)
 
+print data
 
 data = ujson.dumps(data)
 data = encrypt(data)
 
 rst = requests.post(url, data=data)
 result = rst.content
+if result:
+    result = decrypt(result)
+    print result, type(result)
 
-result = decrypt(result)
-print result, type(result)
+
+

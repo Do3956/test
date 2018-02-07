@@ -5,3 +5,5 @@
 # My:
 .idea
 log
+config.json
+data.pkl

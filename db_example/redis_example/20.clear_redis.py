@@ -4,8 +4,9 @@ from redis import sentinel
 
 # s = sentinel.Sentinel([("120.25.174.12", 27380)], password = "123")
 rds = redis.Redis(host="120.24.36.12", port=7379, password="123")
+rds = redis.Redis(host="120.25.174.76", port=8380, password="Zyl_Baoshi@redis#1")
 pip = rds.pipeline(transaction=False)
-keys = rds.keys("hu:*")
+keys = rds.keys("*:money_tree")
 print 'keys:',keys
 
 counter = 0 

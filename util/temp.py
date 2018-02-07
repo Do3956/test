@@ -6,14 +6,5 @@ __content__ = ''
 """
 
 
-def a(target):
-
-    print target.__name__
-
-@a
-def b_123(test):
-    print test
-
-
-print a(123)
-# print a.__name__
+with open("1.txt","rb") as f:
+    print f.read()

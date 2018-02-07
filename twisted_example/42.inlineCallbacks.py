@@ -14,7 +14,7 @@ from twisted.internet import reactor
 # 中断点。整个函数中，各种耗时操作都可以被yield，yield一个deferred对象之后，这个函数就中断在yield处，主线程开始执行其他任务
 # 当中途yield出来的deferred有了结果之后，这个函数从yield的地方继续往下运行，直到运行到returnValue处，使得这整个函数返回
 # 的deferred对象获得结果。
-# 其实这个修饰器就是是的代码看起来紧凑一点，吧需要家callback的代码都集中并且串行地写在同一个函数里，并且对于deferred的callback
+# 其实这个修饰器就是是的代码看起来紧凑一点，把需要加callback的代码都集中并且串行地写在同一个函数里，并且对于deferred的callback
 # 中又要产生deferred的情况，不用return一个deferred对象，而是直接yield出去，看起来更好懂。
 @defer.inlineCallbacks
 def time_wasted_wrapper(job_id):
